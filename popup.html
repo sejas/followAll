@@ -1,0 +1,31 @@
+<!--
+ * Copyright (c) 2012 Antonio Sejas
+ * Author: Antonio Sejas http://antonio.sejas.es/
+-->
+
+<link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+<script src="jquery.js" ></script>
+<script>
+jbaulen = jQuery.noConflict(true);
+</script>
+
+<ul id="botones">
+        <li onclick="seguir();" id="botonFollow">Follow</li>
+        <li id="espacio"></li>
+        <li onclick="click(this)" id="red">red</li>
+        <li onclick="noseguir();" id="botonUnfollow">UnFollow</li>
+
+</ul>
+<script>
+        function click(color) {
+        chrome.tabs.executeScript(null,
+                {code:"document.body.style.backgroundColor='" + color.id + "'"});
+        window.close();
+        }
+                        function seguir(){ chrome.tabs.executeScript(null,
+                                {code:"jbaulen('.js-action-follow').each(function(){jbaulen(this).click()}); window.alert('hecho '+jbaulen('.js-action-follow').size());" });
+                         }
+                        function noseguir(){  chrome.tabs.executeScript(null,
+                                {code:"jbaulen('.js-action-unfollow').click(); window.alert('hecho '+jbaulen('.js-action-unfollow').size());"});
+                         }
+</script>

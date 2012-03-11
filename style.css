@@ -1,0 +1,51 @@
+ul {
+
+}
+
+li {
+	display:inline;
+}
+
+#espacio{
+width:50px;
+}
+
+#botonFollow{
+color: white;
+text-shadow: 0 -1px 0 rgba(0, 0, 0, .25);
+background-color: #019AD2;
+background-repeat: repeat-x;
+background-image: -khtml-gradient(linear,left top,left bottom,from(#33BCEF),to(#019AD2));
+background-image: -moz-linear-gradient(#33BCEF,#019AD2);
+background-image: -ms-linear-gradient(#33BCEF,#019AD2);
+background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#33BCEF),color-stop(100%,#019AD2));
+background-image: -webkit-linear-gradient(#33BCEF,#019AD2);
+background-image: -o-linear-gradient(#33BCEF,#019AD2);
+background-image: linear-gradient(#33BCEF,#019AD2);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#33bcef',endColorstr='#019ad2',GradientType=0);
+border-color: #057ED0;
+-webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,.1);
+-moz-box-shadow: inset 0 1px 0 rgba(255,255,255,.1);
+box-shadow: inset 0 1px 0 rgba(255,255,255,.1);
+padding:0 10px;
+}
+
+#botonUnollow{
+color: white;
+text-shadow: 0 -1px 0 rgba(0, 0, 0, .25);
+background-color: #019AD2;
+background-repeat: repeat-x;
+background-image: -khtml-gradient(linear,left top,left bottom,from(#33BCEF),to(#019AD2));
+background-image: -moz-linear-gradient(#33BCEF,#019AD2);
+background-image: -ms-linear-gradient(#33BCEF,#019AD2);
+background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#33BCEF),color-stop(100%,#019AD2));
+background-image: -webkit-linear-gradient(#33BCEF,#019AD2);
+background-image: -o-linear-gradient(#33BCEF,#019AD2);
+background-image: linear-gradient(#33BCEF,#019AD2);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#33bcef',endColorstr='#019ad2',GradientType=0);
+border-color: #057ED0;
+-webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,.1);
+-moz-box-shadow: inset 0 1px 0 rgba(255,255,255,.1);
+box-shadow: inset 0 1px 0 rgba(255,255,255,.1);
+padding: 0 10px;
+}

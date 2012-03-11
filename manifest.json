@@ -1,0 +1,21 @@
+{
+  "name": "followAll",
+  "version": "0.1",
+  "background_page": "background.html",
+  "description": "It allows you to follow everybody who appears in a tiwtter's page with just a simple Click",
+  "browser_action": {
+    "default_icon": "logo-followAll-p.png",
+    "name": "It allows you to follow everybody who appears in a tiwtter's page with a simple Click",
+    "default_title": "Follow All or UnFollow. by @antoniosejas",
+    "popup": "popup.html"
+  },
+  "content_scripts": [
+    {     
+      "matches": ["http://*/*", "https://*/*"],
+      "js": ["jquery.js","jbaulen.js"]
+    }    
+  ],    
+ "permissions": [
+   "tabs", "http://*/*","https://*/*"
+ ]    
+}
